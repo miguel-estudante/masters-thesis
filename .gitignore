@@ -1,0 +1,18 @@
+# Secrets
+.env
+
+# Python / local tooling
+__pycache__/
+*.pyc
+.claude/
+*.log
+
+# Large files (hosted on Google Drive)
+Utils/*.bin
+Annotations/Train/augmented_datasets/*.json
+
+# Generated outputs
+Predictions/*.json
+Train/logs/*
+Train/outputs/*
+!**/.gitkeep

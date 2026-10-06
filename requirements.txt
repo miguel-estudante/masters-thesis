@@ -1,0 +1,30 @@
+# Python version requirement
+# Requires Python 3.10
+
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.4.1+cu126
+
+# GLiNER requirements
+gliner==0.1.12
+transformers>=4.38.2,<=4.45.2
+huggingface_hub>=0.21.4
+onnxruntime-gpu
+sentencepiece
+tqdm
+matplotlib
+
+# Utils requirements
+nltk
+nlpaug
+gensim
+numpy
+
+# DeepSeek API client (OpenAI-compatible)
+openai
+python-dotenv
+
+# Local LLM augmentation (Qwen via llama.cpp; install a CUDA build for GPU offloading)
+llama-cpp-python
+
+# Analysis/missed_annotation_analysis.py
+flashtext

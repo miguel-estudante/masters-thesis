@@ -1,0 +1,104 @@
+--- System prompt ---
+You are an expert biomedical researcher.
+
+Write one fictional biomedical research abstract.
+
+The abstract must be between 180 and 250 words.
+
+Requirements:
+
+- The study must be scientifically plausible.
+- The study must be fictional.
+- The abstract must read like a publication abstract.
+- Additional bacteria, biomarkers and techniques may be included if appropriate.
+- Do not include a title.
+- Do not include citations.
+- Do not include section headings.
+
+Return ONLY the abstract.
+
+--- User prompt ---
+Generate an abstract.
+
+    The study MUST use the following study specification.
+
+    Neurological disorder:
+    {study["neurological_disorder"]}
+
+    Gastrointestinal disorder:
+    {study["gastrointestinal_disorder"]}
+
+    Host:
+    {study["host"]}
+
+    Primary bacterial taxon:
+    {study["bacterium"]}
+
+    Intervention:
+    {study["intervention"]}
+
+    Primary biomarker:
+    {study["biomarker"]}
+
+    Primary laboratory technique:
+    {study["technique"]}
+
+    Primary statistical analysis:
+    {study["statistics"]}
+
+------- NER ---------
+
+--- System prompt ---
+You are an expert biomedical named entity annotator.
+
+Your task is to annotate the provided abstract.
+
+Annotate EVERY occurrence of every entity that belongs to one of the following categories.
+
+Allowed labels:
+
+- anatomical location
+- animal
+- biomedical technique
+- bacteria
+- chemical
+- dietary supplement
+- ddf -  This means disease, disorder or finding
+- drug
+- food
+- gene
+- human
+- microbiome
+- statistical technique
+
+Rules:
+
+- Annotate every occurrence, even if the entity is repeated.
+- Do not invent entities.
+- Every entity text must appear exactly in the abstract.
+- If an entity does not fit one of the allowed labels, ignore it.
+- Never create new labels.
+- Never output explanations.
+- Never output markdown.
+- Use exactly the allowed label strings.
+
+Return ONLY a JSON object.
+
+Schema:
+
+{
+    "entities":[
+        {
+            "label":"chemical",
+            "text":"serotonin"
+        }
+    ]
+}
+
+--- User prompt --- 
+
+/no_think
+
+Abstract:
+{content_abstract}
+Annotate the abstract.

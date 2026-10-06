@@ -1,0 +1,742 @@
+{
+  "synthetic_0": {
+    "metadata": {
+      "title": null,
+      "author": null,
+      "journal": null,
+      "year": null,
+      "annotator": "llm_synthetic",
+      "forced_types": [
+        "food",
+        "gene"
+      ]
+    },
+    "abstract": "The gut-brain axis is increasingly recognized as a critical mediator of mental health, with fermented dairy products emerging as potential modulators of this relationship through their influence on gut microbiota composition. A TLR4-deficient murine model revealed altered responses to dietary probiotic supplementation, suggesting that innate immune signaling pathways may regulate the microbiota's capacity to influence neurobehavioral outcomes. 16S rRNA sequencing demonstrated that fermented dairy-fed mice exhibited distinct microbial community structures compared to controls, with increased abundance of Lactobacillus and Bifidobacterium species. These changes correlated with reduced anxiety-like behaviors in behavioral assays, indicating a potential mechanistic link between microbiota shifts and mood regulation. Further, the TLR4 mutation was associated with diminished production of short-chain fatty acids, key metabolites implicated in gut-brain communication. These findings suggest that dietary interventions targeting specific microbial taxa may offer therapeutic potential for depressive disorders by modulating immune-related gene expression and metabolic output of the gut. The interplay between host genetics and microbiota-driven neuroactive metabolites highlights the complexity of the gut-brain axis and its relevance to mental health.",
+    "entities": [
+      {
+        "start_idx": 92,
+        "end_idx": 116,
+        "location": "abstract",
+        "text_span": "fermented dairy products",
+        "label": "food"
+      },
+      {
+        "start_idx": 198,
+        "end_idx": 212,
+        "location": "abstract",
+        "text_span": "gut microbiota",
+        "label": "microbiome"
+      },
+      {
+        "start_idx": 228,
+        "end_idx": 232,
+        "location": "abstract",
+        "text_span": "TLR4",
+        "label": "gene"
+      },
+      {
+        "start_idx": 294,
+        "end_idx": 319,
+        "location": "abstract",
+        "text_span": "probiotic supplementation",
+        "label": "food"
+      },
+      {
+        "start_idx": 448,
+        "end_idx": 467,
+        "location": "abstract",
+        "text_span": "16S rRNA sequencing",
+        "label": "biomedical technique"
+      },
+      {
+        "start_idx": 486,
+        "end_idx": 501,
+        "location": "abstract",
+        "text_span": "fermented dairy",
+        "label": "food"
+      },
+      {
+        "start_idx": 530,
+        "end_idx": 560,
+        "location": "abstract",
+        "text_span": "microbial community structures",
+        "label": "microbiome"
+      },
+      {
+        "start_idx": 611,
+        "end_idx": 624,
+        "location": "abstract",
+        "text_span": "Lactobacillus",
+        "label": "bacteria"
+      },
+      {
+        "start_idx": 629,
+        "end_idx": 644,
+        "location": "abstract",
+        "text_span": "Bifidobacterium",
+        "label": "bacteria"
+      },
+      {
+        "start_idx": 837,
+        "end_idx": 841,
+        "location": "abstract",
+        "text_span": "TLR4",
+        "label": "gene"
+      },
+      {
+        "start_idx": 896,
+        "end_idx": 919,
+        "location": "abstract",
+        "text_span": "short-chain fatty acids",
+        "label": "chemical"
+      },
+      {
+        "start_idx": 1004,
+        "end_idx": 1025,
+        "location": "abstract",
+        "text_span": "dietary interventions",
+        "label": "food"
+      },
+      {
+        "start_idx": 1045,
+        "end_idx": 1059,
+        "location": "abstract",
+        "text_span": "microbial taxa",
+        "label": "microbiome"
+      },
+      {
+        "start_idx": 1096,
+        "end_idx": 1116,
+        "location": "abstract",
+        "text_span": "depressive disorders",
+        "label": "DDF"
+      },
+      {
+        "start_idx": 1131,
+        "end_idx": 1150,
+        "location": "abstract",
+        "text_span": "immune-related gene",
+        "label": "gene"
+      },
+      {
+        "start_idx": 1190,
+        "end_idx": 1193,
+        "location": "abstract",
+        "text_span": "gut",
+        "label": "anatomical location"
+      },
+      {
+        "start_idx": 1217,
+        "end_idx": 1230,
+        "location": "abstract",
+        "text_span": "host genetics",
+        "label": "gene"
+      }
+    ]
+  },
+  "synthetic_1": {
+    "metadata": {
+      "title": null,
+      "author": null,
+      "journal": null,
+      "year": null,
+      "annotator": "llm_synthetic",
+      "forced_types": [
+        "dietary_supplement",
+        "gene",
+        "statistical_technique"
+      ]
+    },
+    "abstract": "The gut-brain axis is increasingly recognized as a critical mediator in the pathogenesis of major depressive disorder, with emerging evidence pointing to the role of gut microbiota in modulating neuroinflammation and neurotransmitter production. tryptophan hydroxylase 2 (Tph2), a key enzyme in serotonin synthesis, was found to be significantly downregulated in the brain of depressed patients compared to healthy controls, suggesting a potential link between gut microbial metabolites and central serotonergic function. To explore this further, we analyzed fecal samples from 120 participants using 16S rRNA sequencing and identified a significant depletion of Prevotella in depressed individuals. A multivariate analysis of variance revealed that Prevotella abundance correlated inversely with Tph2 expression levels, indicating a possible microbial influence on central serotonin metabolism. Notably, supplementation with the probiotic Lactobacillus rhamnosus led to a partial restoration of Tph2 expression and improved mood scores in a subset of patients with major depressive disorder. These findings support the hypothesis that gut microbial dysbiosis contributes to neurochemical imbalances and that targeted microbiome modulation may offer a novel therapeutic approach for mood disorders.",
+    "entities": [
+      {
+        "start_idx": 92,
+        "end_idx": 117,
+        "location": "abstract",
+        "text_span": "major depressive disorder",
+        "label": "DDF"
+      },
+      {
+        "start_idx": 166,
+        "end_idx": 180,
+        "location": "abstract",
+        "text_span": "gut microbiota",
+        "label": "microbiome"
+      },
+      {
+        "start_idx": 246,
+        "end_idx": 270,
+        "location": "abstract",
+        "text_span": "tryptophan hydroxylase 2",
+        "label": "gene"
+      },
+      {
+        "start_idx": 272,
+        "end_idx": 276,
+        "location": "abstract",
+        "text_span": "Tph2",
+        "label": "gene"
+      },
+      {
+        "start_idx": 367,
+        "end_idx": 372,
+        "location": "abstract",
+        "text_span": "brain",
+        "label": "anatomical location"
+      },
+      {
+        "start_idx": 376,
+        "end_idx": 394,
+        "location": "abstract",
+        "text_span": "depressed patients",
+        "label": "human"
+      },
+      {
+        "start_idx": 407,
+        "end_idx": 423,
+        "location": "abstract",
+        "text_span": "healthy controls",
+        "label": "human"
+      },
+      {
+        "start_idx": 582,
+        "end_idx": 594,
+        "location": "abstract",
+        "text_span": "participants",
+        "label": "human"
+      },
+      {
+        "start_idx": 601,
+        "end_idx": 620,
+        "location": "abstract",
+        "text_span": "16S rRNA sequencing",
+        "label": "biomedical technique"
+      },
+      {
+        "start_idx": 663,
+        "end_idx": 673,
+        "location": "abstract",
+        "text_span": "Prevotella",
+        "label": "bacteria"
+      },
+      {
+        "start_idx": 677,
+        "end_idx": 698,
+        "location": "abstract",
+        "text_span": "depressed individuals",
+        "label": "human"
+      },
+      {
+        "start_idx": 702,
+        "end_idx": 735,
+        "location": "abstract",
+        "text_span": "multivariate analysis of variance",
+        "label": "statistical technique"
+      },
+      {
+        "start_idx": 750,
+        "end_idx": 760,
+        "location": "abstract",
+        "text_span": "Prevotella",
+        "label": "bacteria"
+      },
+      {
+        "start_idx": 797,
+        "end_idx": 801,
+        "location": "abstract",
+        "text_span": "Tph2",
+        "label": "gene"
+      },
+      {
+        "start_idx": 930,
+        "end_idx": 939,
+        "location": "abstract",
+        "text_span": "probiotic",
+        "label": "dietary supplement"
+      },
+      {
+        "start_idx": 940,
+        "end_idx": 963,
+        "location": "abstract",
+        "text_span": "Lactobacillus rhamnosus",
+        "label": "bacteria"
+      },
+      {
+        "start_idx": 996,
+        "end_idx": 1000,
+        "location": "abstract",
+        "text_span": "Tph2",
+        "label": "gene"
+      },
+      {
+        "start_idx": 1052,
+        "end_idx": 1060,
+        "location": "abstract",
+        "text_span": "patients",
+        "label": "human"
+      },
+      {
+        "start_idx": 1066,
+        "end_idx": 1091,
+        "location": "abstract",
+        "text_span": "major depressive disorder",
+        "label": "DDF"
+      }
+    ]
+  },
+  "synthetic_2": {
+    "metadata": {
+      "title": null,
+      "author": null,
+      "journal": null,
+      "year": null,
+      "annotator": "llm_synthetic",
+      "forced_types": [
+        "dietary_supplement",
+        "statistical_technique"
+      ]
+    },
+    "abstract": "A multivariate analysis of variance revealed that the administration of a probiotic blend containing Lactobacillus rhamnosus and Bifidobacterium longum significantly altered the gut microbiome composition in male and female C57BL/6J mice following a 12-week intervention. These changes were associated with improved behavioral outcomes in a colitis-induced anxiety model, as measured by open field and elevated plus maze tests. The principal component analysis highlighted a distinct clustering of microbial taxa, including increased abundance of Allobaculum and Odoribacter, which correlated with reduced inflammatory cytokine levels in serum. Notably, the permutation-based multivariate analysis demonstrated that the probiotic treatment modulated the gut-brain axis by enhancing the production of short-chain fatty acids, particularly butyrate, which in turn influenced hippocampal neuroplasticity markers. These findings suggest that targeted modulation of the gut microbiome through probiotic supplementation could represent a viable strategy for mitigating gut-related psychiatric comorbidities and improving cognitive function in individuals with chronic gastrointestinal disorders.",
+    "entities": [
+      {
+        "start_idx": 2,
+        "end_idx": 35,
+        "location": "abstract",
+        "text_span": "multivariate analysis of variance",
+        "label": "statistical technique"
+      },
+      {
+        "start_idx": 74,
+        "end_idx": 151,
+        "location": "abstract",
+        "text_span": "probiotic blend containing Lactobacillus rhamnosus and Bifidobacterium longum",
+        "label": "dietary supplement"
+      },
+      {
+        "start_idx": 178,
+        "end_idx": 192,
+        "location": "abstract",
+        "text_span": "gut microbiome",
+        "label": "microbiome"
+      },
+      {
+        "start_idx": 208,
+        "end_idx": 237,
+        "location": "abstract",
+        "text_span": "male and female C57BL/6J mice",
+        "label": "animal"
+      },
+      {
+        "start_idx": 341,
+        "end_idx": 370,
+        "location": "abstract",
+        "text_span": "colitis-induced anxiety model",
+        "label": "DDF"
+      },
+      {
+        "start_idx": 387,
+        "end_idx": 426,
+        "location": "abstract",
+        "text_span": "open field and elevated plus maze tests",
+        "label": "biomedical technique"
+      },
+      {
+        "start_idx": 432,
+        "end_idx": 460,
+        "location": "abstract",
+        "text_span": "principal component analysis",
+        "label": "statistical technique"
+      },
+      {
+        "start_idx": 547,
+        "end_idx": 558,
+        "location": "abstract",
+        "text_span": "Allobaculum",
+        "label": "bacteria"
+      },
+      {
+        "start_idx": 563,
+        "end_idx": 574,
+        "location": "abstract",
+        "text_span": "Odoribacter",
+        "label": "bacteria"
+      },
+      {
+        "start_idx": 606,
+        "end_idx": 627,
+        "location": "abstract",
+        "text_span": "inflammatory cytokine",
+        "label": "chemical"
+      },
+      {
+        "start_idx": 658,
+        "end_idx": 697,
+        "location": "abstract",
+        "text_span": "permutation-based multivariate analysis",
+        "label": "statistical technique"
+      },
+      {
+        "start_idx": 720,
+        "end_idx": 739,
+        "location": "abstract",
+        "text_span": "probiotic treatment",
+        "label": "dietary supplement"
+      },
+      {
+        "start_idx": 754,
+        "end_idx": 768,
+        "location": "abstract",
+        "text_span": "gut-brain axis",
+        "label": "microbiome"
+      },
+      {
+        "start_idx": 800,
+        "end_idx": 823,
+        "location": "abstract",
+        "text_span": "short-chain fatty acids",
+        "label": "chemical"
+      },
+      {
+        "start_idx": 838,
+        "end_idx": 846,
+        "location": "abstract",
+        "text_span": "butyrate",
+        "label": "chemical"
+      },
+      {
+        "start_idx": 873,
+        "end_idx": 884,
+        "location": "abstract",
+        "text_span": "hippocampal",
+        "label": "anatomical location"
+      },
+      {
+        "start_idx": 965,
+        "end_idx": 979,
+        "location": "abstract",
+        "text_span": "gut microbiome",
+        "label": "microbiome"
+      },
+      {
+        "start_idx": 988,
+        "end_idx": 1013,
+        "location": "abstract",
+        "text_span": "probiotic supplementation",
+        "label": "dietary supplement"
+      },
+      {
+        "start_idx": 1063,
+        "end_idx": 1100,
+        "location": "abstract",
+        "text_span": "gut-related psychiatric comorbidities",
+        "label": "DDF"
+      },
+      {
+        "start_idx": 1137,
+        "end_idx": 1148,
+        "location": "abstract",
+        "text_span": "individuals",
+        "label": "human"
+      }
+    ]
+  },
+  "synthetic_3": {
+    "metadata": {
+      "title": null,
+      "author": null,
+      "journal": null,
+      "year": null,
+      "annotator": "llm_synthetic",
+      "forced_types": [
+        "biomedical_technique",
+        "gene",
+        "food"
+      ]
+    },
+    "abstract": "The dysregulation of the gut microbiota has been increasingly linked to inflammatory bowel disease and its associated neurological comorbidities, including depression. Using 16S rRNA sequencing and metabolomic profiling, we analyzed fecal samples from conventional C57BL/6J mice fed a standard chow diet or a diet supplemented with fermented soybeans, which are rich in short-chain fatty acids. Mice on the fermented soybean-enriched diet exhibited a significant increase in the abundance of the Lactobacillus genus and a concomitant decrease in pro-inflammatory lipopolysaccharide levels in the colonic mucosa. Notably, the Tlr4 expression was downregulated in these animals, correlating with reduced inflammation and improved gastrointestinal barrier function. Furthermore, the fermented soybean-diet group showed enhanced behavioral tests outcomes, suggesting a potential role for microbiota-modulating diets in alleviating both gut and brain-related pathologies. These findings highlight the interplay between gut microbiota, immune-related genes, and dietary interventions in modulating inflammatory and neurobehavioral disorders.",
+    "entities": [
+      {
+        "start_idx": 25,
+        "end_idx": 39,
+        "location": "abstract",
+        "text_span": "gut microbiota",
+        "label": "microbiome"
+      },
+      {
+        "start_idx": 72,
+        "end_idx": 98,
+        "location": "abstract",
+        "text_span": "inflammatory bowel disease",
+        "label": "DDF"
+      },
+      {
+        "start_idx": 156,
+        "end_idx": 166,
+        "location": "abstract",
+        "text_span": "depression",
+        "label": "DDF"
+      },
+      {
+        "start_idx": 174,
+        "end_idx": 193,
+        "location": "abstract",
+        "text_span": "16S rRNA sequencing",
+        "label": "biomedical technique"
+      },
+      {
+        "start_idx": 198,
+        "end_idx": 219,
+        "location": "abstract",
+        "text_span": "metabolomic profiling",
+        "label": "biomedical technique"
+      },
+      {
+        "start_idx": 252,
+        "end_idx": 278,
+        "location": "abstract",
+        "text_span": "conventional C57BL/6J mice",
+        "label": "animal"
+      },
+      {
+        "start_idx": 332,
+        "end_idx": 350,
+        "location": "abstract",
+        "text_span": "fermented soybeans",
+        "label": "food"
+      },
+      {
+        "start_idx": 370,
+        "end_idx": 393,
+        "location": "abstract",
+        "text_span": "short-chain fatty acids",
+        "label": "chemical"
+      },
+      {
+        "start_idx": 407,
+        "end_idx": 424,
+        "location": "abstract",
+        "text_span": "fermented soybean",
+        "label": "food"
+      },
+      {
+        "start_idx": 496,
+        "end_idx": 509,
+        "location": "abstract",
+        "text_span": "Lactobacillus",
+        "label": "bacteria"
+      },
+      {
+        "start_idx": 563,
+        "end_idx": 581,
+        "location": "abstract",
+        "text_span": "lipopolysaccharide",
+        "label": "chemical"
+      },
+      {
+        "start_idx": 596,
+        "end_idx": 610,
+        "location": "abstract",
+        "text_span": "colonic mucosa",
+        "label": "anatomical location"
+      },
+      {
+        "start_idx": 625,
+        "end_idx": 629,
+        "location": "abstract",
+        "text_span": "Tlr4",
+        "label": "gene"
+      },
+      {
+        "start_idx": 702,
+        "end_idx": 714,
+        "location": "abstract",
+        "text_span": "inflammation",
+        "label": "DDF"
+      },
+      {
+        "start_idx": 728,
+        "end_idx": 761,
+        "location": "abstract",
+        "text_span": "gastrointestinal barrier function",
+        "label": "DDF"
+      },
+      {
+        "start_idx": 780,
+        "end_idx": 797,
+        "location": "abstract",
+        "text_span": "fermented soybean",
+        "label": "food"
+      },
+      {
+        "start_idx": 825,
+        "end_idx": 841,
+        "location": "abstract",
+        "text_span": "behavioral tests",
+        "label": "biomedical technique"
+      },
+      {
+        "start_idx": 1014,
+        "end_idx": 1028,
+        "location": "abstract",
+        "text_span": "gut microbiota",
+        "label": "microbiome"
+      },
+      {
+        "start_idx": 1030,
+        "end_idx": 1050,
+        "location": "abstract",
+        "text_span": "immune-related genes",
+        "label": "gene"
+      },
+      {
+        "start_idx": 1056,
+        "end_idx": 1077,
+        "location": "abstract",
+        "text_span": "dietary interventions",
+        "label": "food"
+      },
+      {
+        "start_idx": 1092,
+        "end_idx": 1134,
+        "location": "abstract",
+        "text_span": "inflammatory and neurobehavioral disorders",
+        "label": "DDF"
+      }
+    ]
+  },
+  "synthetic_4": {
+    "metadata": {
+      "title": null,
+      "author": null,
+      "journal": null,
+      "year": null,
+      "annotator": "llm_synthetic",
+      "forced_types": [
+        "gene",
+        "biomedical_technique"
+      ]
+    },
+    "abstract": "The TLR4 gene has been implicated in modulating immune responses and inflammation, which are key components of the gut-brain axis. Recent single-cell RNA sequencing has revealed distinct transcriptional profiles of immune cells in the gut mucosa that correlate with neuroinflammatory markers in the brain. These findings suggest a potential mechanistic link between intestinal immune activation and cognitive decline in Alzheimer's disease. To explore this further, metabolomic profiling was employed to assess the fecal microbiota-derived metabolites in patients with Alzheimer's disease and age-matched controls. A significant enrichment of short-chain fatty acids, particularly butyrate, was observed in the control group, suggesting a dysregulated microbiome in Alzheimer's disease patients. Quantitative PCR confirmed a reduced abundance of Faecalibacterium prausnitzii, a known butyrate producer, in Alzheimer's disease subjects. These results highlight the role of the gut microbiome in modulating neuroinflammation through immune signaling pathways involving the TLR4 gene. The integration of single-cell RNA sequencing with metabolomic and microbial profiling provides a comprehensive view of how immune-microbial interactions might influence disease progression in Alzheimer's disease.",
+    "entities": [
+      {
+        "start_idx": 4,
+        "end_idx": 8,
+        "location": "abstract",
+        "text_span": "TLR4",
+        "label": "gene"
+      },
+      {
+        "start_idx": 138,
+        "end_idx": 164,
+        "location": "abstract",
+        "text_span": "single-cell RNA sequencing",
+        "label": "biomedical technique"
+      },
+      {
+        "start_idx": 420,
+        "end_idx": 439,
+        "location": "abstract",
+        "text_span": "Alzheimer's disease",
+        "label": "DDF"
+      },
+      {
+        "start_idx": 466,
+        "end_idx": 487,
+        "location": "abstract",
+        "text_span": "metabolomic profiling",
+        "label": "biomedical technique"
+      },
+      {
+        "start_idx": 555,
+        "end_idx": 563,
+        "location": "abstract",
+        "text_span": "patients",
+        "label": "human"
+      },
+      {
+        "start_idx": 569,
+        "end_idx": 588,
+        "location": "abstract",
+        "text_span": "Alzheimer's disease",
+        "label": "DDF"
+      },
+      {
+        "start_idx": 605,
+        "end_idx": 613,
+        "location": "abstract",
+        "text_span": "controls",
+        "label": "human"
+      },
+      {
+        "start_idx": 681,
+        "end_idx": 689,
+        "location": "abstract",
+        "text_span": "butyrate",
+        "label": "chemical"
+      },
+      {
+        "start_idx": 711,
+        "end_idx": 724,
+        "location": "abstract",
+        "text_span": "control group",
+        "label": "human"
+      },
+      {
+        "start_idx": 766,
+        "end_idx": 785,
+        "location": "abstract",
+        "text_span": "Alzheimer's disease",
+        "label": "DDF"
+      },
+      {
+        "start_idx": 796,
+        "end_idx": 812,
+        "location": "abstract",
+        "text_span": "Quantitative PCR",
+        "label": "biomedical technique"
+      },
+      {
+        "start_idx": 846,
+        "end_idx": 874,
+        "location": "abstract",
+        "text_span": "Faecalibacterium prausnitzii",
+        "label": "bacteria"
+      },
+      {
+        "start_idx": 906,
+        "end_idx": 925,
+        "location": "abstract",
+        "text_span": "Alzheimer's disease",
+        "label": "DDF"
+      },
+      {
+        "start_idx": 976,
+        "end_idx": 990,
+        "location": "abstract",
+        "text_span": "gut microbiome",
+        "label": "microbiome"
+      },
+      {
+        "start_idx": 1071,
+        "end_idx": 1075,
+        "location": "abstract",
+        "text_span": "TLR4",
+        "label": "gene"
+      },
+      {
+        "start_idx": 1101,
+        "end_idx": 1127,
+        "location": "abstract",
+        "text_span": "single-cell RNA sequencing",
+        "label": "biomedical technique"
+      },
+      {
+        "start_idx": 1275,
+        "end_idx": 1294,
+        "location": "abstract",
+        "text_span": "Alzheimer's disease",
+        "label": "DDF"
+      }
+    ]
+  }
+}

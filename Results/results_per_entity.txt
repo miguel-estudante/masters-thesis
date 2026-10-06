@@ -1,0 +1,160 @@
+ --- BASELINE ---
+
+DDF:
+  Precision: 0.8778
+  Recall:    0.8335
+  F1:        0.8551
+  True Positives: 661 / 753 predicted, 793 annotated
+
+anatomical location:
+  Precision: 0.6912
+  Recall:    0.8343
+  F1:        0.7560
+  True Positives: 141 / 204 predicted, 169 annotated
+
+animal:
+  Precision: 0.8084
+  Recall:    0.8882
+  F1:        0.8464
+  True Positives: 135 / 167 predicted, 152 annotated
+
+bacteria:
+  Precision: 0.7683
+  Recall:    0.6885
+  F1:        0.7262
+  True Positives: 126 / 164 predicted, 183 annotated
+
+biomedical technique:
+  Precision: 0.5542
+  Recall:    0.6619
+  F1:        0.6033
+  True Positives: 92 / 166 predicted, 139 annotated
+
+chemical:
+  Precision: 0.6722
+  Recall:    0.7678
+  F1:        0.7168
+  True Positives: 281 / 418 predicted, 366 annotated
+
+dietary supplement:
+  Precision: 0.6765
+  Recall:    0.7187
+  F1:        0.6970
+  True Positives: 46 / 68 predicted, 64 annotated
+
+drug:
+  Precision: 0.7973
+  Recall:    0.7867
+  F1:        0.7919
+  True Positives: 59 / 74 predicted, 75 annotated
+
+food:
+  Precision: 0.7419
+  Recall:    0.3898
+  F1:        0.5111
+  True Positives: 23 / 31 predicted, 59 annotated
+
+gene:
+  Precision: 0.5000
+  Recall:    0.2063
+  F1:        0.2921
+  True Positives: 13 / 26 predicted, 63 annotated
+
+human:
+  Precision: 0.9261
+  Recall:    0.8490
+  F1:        0.8859
+  True Positives: 163 / 176 predicted, 192 annotated
+
+microbiome:
+  Precision: 0.8320
+  Recall:    0.9221
+  F1:        0.8747
+  True Positives: 213 / 256 predicted, 231 annotated
+
+statistical technique:
+  Precision: 0.6667
+  Recall:    0.8571
+  F1:        0.7500
+  True Positives: 30 / 45 predicted, 35 annotated
+
+
+--- SYN015 --- 
+
+DDF:
+  Precision: 0.8446
+  Recall:    0.8638
+  F1:        0.8541
+  True Positives: 685 / 811 predicted, 793 annotated
+
+anatomical location:
+  Precision: 0.7865
+  Recall:    0.8284
+  F1:        0.8069
+  True Positives: 140 / 178 predicted, 169 annotated
+
+animal:
+  Precision: 0.8519
+  Recall:    0.9079
+  F1:        0.8790
+  True Positives: 138 / 162 predicted, 152 annotated
+
+bacteria:
+  Precision: 0.7821
+  Recall:    0.7650
+  F1:        0.7735
+  True Positives: 140 / 179 predicted, 183 annotated
+
+biomedical technique:
+  Precision: 0.6364
+  Recall:    0.6547
+  F1:        0.6454
+  True Positives: 91 / 143 predicted, 139 annotated
+
+chemical:
+  Precision: 0.7464
+  Recall:    0.7158
+  F1:        0.7308
+  True Positives: 262 / 351 predicted, 366 annotated
+
+dietary supplement:
+  Precision: 0.5542
+  Recall:    0.7187
+  F1:        0.6259
+  True Positives: 46 / 83 predicted, 64 annotated
+
+drug:
+  Precision: 0.7838
+  Recall:    0.7733
+  F1:        0.7785
+  True Positives: 58 / 74 predicted, 75 annotated
+
+food:
+  Precision: 0.6000
+  Recall:    0.3559
+  F1:        0.4468
+  True Positives: 21 / 35 predicted, 59 annotated
+
+gene:
+  Precision: 0.5349
+  Recall:    0.3651
+  F1:        0.4340
+  True Positives: 23 / 43 predicted, 63 annotated
+
+human:
+  Precision: 0.9235
+  Recall:    0.8802
+  F1:        0.9013
+  True Positives: 169 / 183 predicted, 192 annotated
+
+microbiome:
+  Precision: 0.8526
+  Recall:    0.9264
+  F1:        0.8880
+  True Positives: 214 / 251 predicted, 231 annotated
+
+statistical technique:
+  Precision: 0.5435
+  Recall:    0.7143
+  F1:        0.6173
+  True Positives: 25 / 46 predicted, 35 annotated
