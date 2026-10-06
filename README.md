@@ -1,6 +1,6 @@
 # masters-thesis
 
-Code used for my Master's thesis in Computer Science: biomedical named entity recognition on the GutBrainIE-2026 shared task (team NOVALINCS), with rule-based and LLM-based data augmentation. Code is adapted from the baseline code provided by the organizers, accessible [here](https://github.com/MMartinelli-hub/GutBrainIE_2026_Baseline).
+Code used for my Master's thesis in Computer Science: Extraction of Named Entities From Biomedical Documents Using Augmented Data. Code is adapted from the baseline code provided by the organizers, accessible [here](https://github.com/MMartinelli-hub/GutBrainIE_2026_Baseline).
 
 ## Requirements
 
